@@ -1,0 +1,31 @@
+HTTP
+
+----------------------------------------
+2 browsers methods
+----------------------------------------
+GET   -> Safe, idempotent
+    idempotent: can call this many times, result will be the same
+POST  -> neither!!!!
+    be CAREFUL! Multiple POSTs will create a ton of tasks!
+
+----------------------------------------
+4 main methods
+----------------------------------------
+GET
+POST
+PUT
+    -> idempotent
+DELETE
+    -> idempotent
+
+----------------------------------------
+8? total methods
+----------------------------------------
+GET
+POST
+PUT
+DELETE
+HEAD
+PATCH
+____
+____
