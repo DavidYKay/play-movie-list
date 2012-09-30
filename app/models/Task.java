@@ -21,7 +21,8 @@ public class Task extends play.db.ebean.Model {
       );
 
   public static List<Task> all() {
-    return find.all();
+    //return find.all();
+    return find.orderBy("id desc").findList();
   }
 
   public static void create(Task task) {
