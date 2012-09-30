@@ -16,4 +16,5 @@ object ApplicationBuild extends Build {
       // Add your own project settings here      
     )
 
+    // This is a test to see if the db dies.
 }
